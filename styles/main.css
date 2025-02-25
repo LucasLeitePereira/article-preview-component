@@ -5,7 +5,6 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10% 0;
-
   background: var(--LightGrayishBlue);
 }
 
@@ -13,7 +12,6 @@ main {
   width: 80%;
   border-radius: 10px;
   overflow: hidden;
-
   background: white;
 }
 
@@ -21,59 +19,55 @@ main {
   width: 100%;
 }
 
-.bottom, .conteudo {
+.conteudo {
   padding: 10%;
 }
 
-/* Perfil */
+.bottom,
+.conteudo {
+  padding: 10%;
+}
+
 .bottom {
   display: flex;
   padding-top: 0;
 }
-
 
 .foto-perfil {
   width: 40px;
   border-radius: 50%;
 }
 
-
 .share-bottom {
-    width: 16px;
-    padding: 7px;
-    background: var(--LightGrayishBlue);
-    border-radius: 50%;
+  width: 16px;
+  padding: 7px;
+  background: var(--LightGrayishBlue);
+  border-radius: 50%;
 }
 
 .info-perfil {
-    border-top: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
-.share{
-    display: none;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    background: var(--VeryDarkGrayishBlue);
+.share {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10% 5% 10%;
+  background: var(--VeryDarkGrayishBlue);
 }
 
 .conteudo-perfil {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .dark {
-    background: var(--DesaturatedDarkBlue);
-    fill: white;
-}
-
-.disable {
-    display: none;
+  background: var(--DesaturatedDarkBlue);
 }

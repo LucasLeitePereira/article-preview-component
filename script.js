@@ -15,7 +15,5 @@ function shareActive() {
         perfil.style.display = 'none';
         share.style.display = 'flex';
         isActive = true;
-
     }
-    
 }

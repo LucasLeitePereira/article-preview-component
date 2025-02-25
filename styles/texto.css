@@ -2,11 +2,10 @@
     line-height: 150%;
 }
 
-
-
 .conteudo h1 {
     color: var(--VeryDarkGrayishBlue);
     font-size: 1.1rem;
+    line-height: 150%;
     font-weight: 700;
 
 }
@@ -21,6 +20,7 @@
 .bottom h1 {
     color: var(--VeryDarkGrayishBlue);
     font-size: 0.9rem;
+    font-weight: 700;
     line-height: 150%;
     margin: 0;
 }
@@ -32,3 +32,18 @@
     color: var(--GrayishBlue);
 }
 
+.share p {
+    letter-spacing: 0.5rem;
+}
+
+
+@media (min-width: 1024px) {
+    .conteudo h1 {
+        font-size: 1.7rem;
+    }
+
+    .conteudo p {
+        font-size: 1.1rem;
+
+    }
+}

@@ -11,7 +11,7 @@ main {
 .caixa-central {
   width: 80%;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: hidden !important;
   background: white;
 }
 
@@ -72,3 +72,52 @@ main {
   background: var(--DesaturatedDarkBlue);
 }
 
+@media (min-width: 1024px) {
+    main {
+        padding: 0;
+    }
+    .caixa-central {
+        width: 50%;
+        display: flex;
+        overflow: unset;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .banner {
+        width: 30%;
+        object-fit: cover;
+    }
+
+    .bottom, .conteudo {
+        padding: 8%;
+    }
+
+    .share {
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        bottom: 42%;
+        left: 61.5%;
+
+        width: 16%;
+        padding: 1.5rem;
+        border-radius: 10px;
+
+        box-shadow: rgba(149, 157, 165, 0.637) 0px 8px 24px;
+    }
+
+    .share::after {
+        content: "";
+        position: absolute;
+        bottom: -16px; /* a seta fica acima da caixa */
+        right: 45%;  /* ajuste conforme a posição que você quer */
+        border-width: 8px; /* tamanho da seta */
+        border-style: solid;
+        border-color: var(--VeryDarkGrayishBlue) transparent transparent transparent;
+    }
+
+    .perfil {
+        padding-top: 0;
+    }
+}

@@ -17,3 +17,4 @@ function shareActive() {
         isActive = true;
     }
 }
+
